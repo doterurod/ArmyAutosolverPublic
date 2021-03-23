@@ -21,7 +21,6 @@ import requests
 import base64
 import json
 import urllib.parse
-import platform
 
 def parse_between(string, fr, to):
     start = string.find(fr) + len(fr)
