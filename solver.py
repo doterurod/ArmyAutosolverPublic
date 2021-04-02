@@ -4,7 +4,7 @@ COPYRIGHT DOTERUROD & LESTERRRY,
 2021
 '''''''''''''''''''''''''''''
 
-cookie = "Замените этот текст на свои куки"
+cookie = """Замените этот текст на свои куки"""
 
 links = [
 "https://online.patriotsport.moscow/pl/teach/control/lesson/view?id=194854525&editMode=0",
