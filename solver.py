@@ -28,7 +28,7 @@ def parse_between(string, fr, to):
     return string[start:end]
 
 def solve(link, cookies):
-    headers = {'cookie': cookies, 'referer': link,'content-type': 'application/x-www-form-urlencoded; charset=UTF-8'}
+    headers = {'cookie': cookies, 'referer': link,'content-type': 'application/x-www-form-urlencoded; charset=UTF-8','user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0'}
     r = requests.get(link, headers=headers)
     questionaryId = parse_between(r.text, "questionaryId:", ",") #регулярки? не не слышал
     object_id = parse_between(r.text, "objectId: ", ",")
