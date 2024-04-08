@@ -21,4 +21,4 @@
 5. Вставляем значение в нашу IDE в переменную cookie и запускаем скрипт(не умеете запускать python скрипты? откройте консоль, напишите python "адрес файла скрипта" и жмите Enter 
 ![image](https://user-images.githubusercontent.com/72671088/111904146-59012580-8a56-11eb-86fb-c9b3e9ddd4a1.png)
 
-Остались вопросы? Telegram @doterurod
+Остались вопросы? Telegram @ribak_semya
